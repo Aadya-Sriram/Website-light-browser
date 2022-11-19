@@ -1,0 +1,266 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.js" integrity="sha512-CX7sDOp7UTAq+i1FYIlf9Uo27x4os+kGeoT7rgwvY+4dmjqV0IuE/Bl5hVsjnQPQiTOhAX1O2r2j5bjsFBvv/A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<nav>
+	<ul>
+		<li>
+			<a href="#section1">
+				<span class="rect"></span>
+				<span class="circle"></span>
+			 Light Browser
+			</a>
+		</li>
+		<li>
+			<a href="#section2">
+				<span class="rect"></span>
+				<span class="circle"></span>
+				How to install
+			</a>
+		</li>
+		<li>
+			<a href="#section3">
+				<span class="rect"></span>
+				<span class="circle"></span>
+			Privacy
+			</a>
+		</li>
+		
+		<li>
+			<a href="#section5">
+				<span class="rect"></span>
+				<span class="circle"></span>
+				Install Now 
+			</a>
+		</li>
+	</ul>
+</nav>
+<section id="section1" class="content-section">
+
+
+	<img style="" width="300px" src="./browser.png" alt="">
+	<h1>Choose the browser that puts you first</h1>
+	<br>
+	<h3>Synonymous to Light browser</h3>
+	
+
+
+
+   
+</section>
+<section id="section2" class="content-section">
+	<h1>How to install</h1>
+	<br>
+<p style="font-size: 20px;">Because of some reasons Microsoft windows defender smart screen tells that it protects you from Light browser to get around this click the MORE INFO button then tap run sorry for the inconvenience</p>
+<p style="font-size: 20px;">This happens due to Microsoft thinking that we are an unknown publisher but we are Light corp. formerly known as Aps Inc.</p>
+<p style="font-size: 20px;">There is no need to worry as this is not any kind of malware as we at Light corp always think to only benifit the world not ruin it</p>
+</section>
+<section id="section3" class="content-section">
+	<h1> Privacy</h1>
+	<br>
+	<p style="font-size: 20px;">We think that privacy is a basic human right and we always want our customers to know that there are no trackers that are built in to Light browser and if you don't believe us you could always go to our github page and check from the as we are and always will open-source</p>
+</section>
+
+<section id="section5" class="content-section">
+	
+	<h1>Install it today</h1>
+<br>
+<br>
+<br>
+<br>
+<a  class="button-40" download="setup.exe"href="#">Install</a>
+
+
+ 
+	<!-- HTML !-->
+	<br>
+	<br>
+	<br>
+
+<style>
+/* CSS */
+.button-40 {
+height: 100px;
+  background-color: #111827;
+  border: 1px solid transparent;
+  border-radius: .75rem;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex: 0 0 auto;
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  padding: .75rem 1.2rem;
+  text-align: center;
+  text-decoration: none #6B7280 solid;
+  text-decoration-thickness: auto;
+  transition-duration: .2s;
+  transition-property: background-color,border-color,color,fill,stroke;
+  transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+
+}
+
+.button-40:hover {
+  background-color: #374151;
+}
+
+.button-40:focus {
+  box-shadow: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+@media (min-width: 768px) {
+  .button-40 {
+    padding: .75rem 1.5rem;
+  }
+}</style>
+</section>
+
+<style>
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+html{
+	height: 100%;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #E9E8E2;
+}
+body{
+	height: 100%;
+}
+nav{
+	position: fixed;
+	top: 5%;
+	bottom: auto;
+	z-index: 10;
+}
+ul{
+	list-style: none;
+	padding: 0;
+}
+li{
+	padding: 10px 0;
+}
+span{
+	display: inline-block;
+	position:relative;
+}
+nav a{
+	display: inline-block;
+	color: #272727;
+	text-decoration: none;
+	font-size: 1em;
+}
+.circle{
+	height: 10px;
+	width: 10px;
+	left: -10px;
+	border-radius: 50%;
+	background-color: #272727;
+}
+.rect{
+	height: 3px;
+	width: 0px;
+	left: 0;
+	bottom: 4px;
+	background-color: #272727;
+	-webkit-transition: -webkit-transform 0.6s, width 1s;
+	-moz-transition: -webkit-transform 0.6s, width 1s;
+	transition: transform 0.6s, width 1s;
+}
+nav a:hover, nav .active-section{
+	color: #9b59b6;
+}
+nav a:hover span, nav .active-section span{
+	background-color: #9b59b6;
+}
+nav .active-section .rect{
+	width: 40px;
+}
+.content-section{
+	position: relative;
+	width: 80%;
+	height: 90%;
+	left: 50%;
+	background-color: #ecf1f1;
+	text-align: center;
+	-webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.content-section h1{
+	position: relative;
+	top: 10%;
+	left: 50%;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+	color:#9b59b6;
+	font-size: 3em;
+}
+
+/*CREDITS*/
+.about{
+	position: fixed;
+	bottom:0; 
+	left: 1%;
+}
+.about a{
+	text-decoration: none;
+	font-size: 1.5em;
+}
+.about a:visited, .about a:active, .about a:link{
+	color:#000;
+}
+.about a:hover{
+	color: red;
+}</style>
+<script>
+$(document).ready(function(){
+	var contentSection = $('.content-section');
+	var navigation = $('nav');
+	
+	//when a nav link is clicked, smooth scroll to the section
+	navigation.on('click', 'a', function(event){
+		event.preventDefault(); //prevents previous event
+		smoothScroll($(this.hash));
+	});
+	
+	//update navigation on scroll...
+	$(window).on('scroll', function(){
+		updateNavigation();
+	})
+	//...and when the page starts
+	updateNavigation();
+	
+	/////FUNCTIONS
+	function updateNavigation(){
+		contentSection.each(function(){
+			var sectionName = $(this).attr('id');
+			var navigationMatch = $('nav a[href="#' + sectionName + '"]');
+			if( ($(this).offset().top - $(window).height()/2 < $(window).scrollTop()) &&
+				  ($(this).offset().top + $(this).height() - $(window).height()/2 > $(window).scrollTop()))
+				{
+					navigationMatch.addClass('active-section');
+				}
+			else {
+				navigationMatch.removeClass('active-section');
+			}
+		});
+	}
+	function smoothScroll(target){
+		$('body,html').animate({
+			scrollTop: target.offset().top
+		}, 1000);
+	}
+});</script>
+</div>
